@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+.TeamMatches-page-container {
+  background-color: red;
+  padding: 15px;
+  color: #ffffff;
+}
+.team-banner-image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.latestMatch-ul-container {
+  width: 100%;
+  padding: 10px;
+  background-color: violet;
+}
+.MatchCard-ul-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.back-button {
+  color: grey;
+  background-color: transparent;
+  border: 2px solid grey;
+  padding: 4px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.pie-Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
